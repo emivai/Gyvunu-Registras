@@ -3,11 +3,11 @@ using MySql.Data.MySqlClient;
 
 using Newtonsoft.Json;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Models;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.Models;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	/// <summary>
 	/// Database operations related to 'Mokejimai' entity.

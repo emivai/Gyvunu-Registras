@@ -1,10 +1,10 @@
 using System.Data;
 using MySql.Data.MySqlClient;
 
-using Ataskaita = Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels.Ataskaita;
+using Ataskaita = GyvunuRegistras.ViewModels.Ataskaita;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	/// <summary>
 	/// Database operations related to reports.

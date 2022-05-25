@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels.Ataskaita
+namespace GyvunuRegistras.ViewModels.Ataskaita
 {
 	/// <summary>
 	/// View model for single contract in a report.

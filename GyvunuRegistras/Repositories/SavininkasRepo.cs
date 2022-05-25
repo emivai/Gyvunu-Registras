@@ -7,10 +7,10 @@ using System.Data;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	/// <summary>
 	/// Database operations related to 'Savininkas' entity.

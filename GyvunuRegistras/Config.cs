@@ -1,4 +1,4 @@
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras
+namespace GyvunuRegistras
 {
 	/// <summary>
     /// Helper for retrieving configuration settings.

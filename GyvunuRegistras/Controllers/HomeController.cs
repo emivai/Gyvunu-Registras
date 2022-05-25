@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Controllers
+namespace GyvunuRegistras.Controllers
 {
 	/// <summary>
     /// <para>This controller is used when no controller is specified in the request URL.</para>

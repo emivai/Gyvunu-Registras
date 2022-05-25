@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Models;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.Repositories;
+using GyvunuRegistras.Models;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Controllers
+namespace GyvunuRegistras.Controllers
 {
 	/// <summary>
 	/// Controller for working with 'VeterinarijosKlinika' entity.

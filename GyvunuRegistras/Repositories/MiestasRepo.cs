@@ -6,10 +6,10 @@ using System.Linq;
 using System.Web;
 using MySql.Data.MySqlClient;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Models;
+using GyvunuRegistras.Models;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	public class MiestasRepo
 	{

@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 using Newtonsoft.Json;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.Repositories;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Controllers
+namespace GyvunuRegistras.Controllers
 {
 	/// <summary>
 	/// Controller for working with 'Savininkas' entity.

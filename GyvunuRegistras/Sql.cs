@@ -1,7 +1,7 @@
 using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras
+namespace GyvunuRegistras
 {
 	/// <summary>
     /// <para>Helper for executing MySQL queries and statements.</para>

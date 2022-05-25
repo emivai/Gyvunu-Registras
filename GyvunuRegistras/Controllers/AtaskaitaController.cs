@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 using Newtonsoft.Json;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Models;
-using Ataskaita = Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels.Ataskaita;
+using GyvunuRegistras.Repositories;
+using GyvunuRegistras.Models;
+using Ataskaita = GyvunuRegistras.ViewModels.Ataskaita;
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Controllers
+namespace GyvunuRegistras.Controllers
 {
 	/// <summary>
 	/// Controller for producing reports.

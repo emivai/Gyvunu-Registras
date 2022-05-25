@@ -6,11 +6,11 @@ using System.Linq;
 using System.Web;
 using MySql.Data.MySqlClient;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.Models;
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.Models;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	public class VeterinarijosKlinikaRepo
 	{

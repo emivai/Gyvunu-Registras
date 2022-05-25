@@ -1,6 +1,6 @@
 using NLog;
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras
+namespace GyvunuRegistras
 {
 	/// <summary>
 	/// <para>Program entry class.</para>

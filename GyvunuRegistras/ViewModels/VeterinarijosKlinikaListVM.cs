@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels
+namespace GyvunuRegistras.ViewModels
 {
 	/// <summary>
 	/// Model of 'VeterinarijosKlinika' entity used in lists.

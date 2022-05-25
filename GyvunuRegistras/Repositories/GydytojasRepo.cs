@@ -1,10 +1,10 @@
 using MySql.Data.MySqlClient;
 using System.Data;
 
-using Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels;
+using GyvunuRegistras.ViewModels;
 
 
-namespace Org.Ktu.Isk.P175B602.GyvunuRegistras.Repositories
+namespace GyvunuRegistras.Repositories
 {
 	/// <summary>
     /// Database operations related to 'Gydytojas' entity.
