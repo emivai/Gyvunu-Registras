@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["title"] = "Pagrindinis puslapis";
+}
+
+<div>
+
+    <div class="container" style="padding-bottom: 150px;">
+          
+
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+        <h2>Miestai</h2>
+        <p>Miestų peržiūra, įrašymas ir redagavimas.</p>
+        <a href="@Url.Action("Index", "Miestas")" nav-link">Atidaryti</a>
+    </div>
+    <div class="feature col">
+        <h2>Veterinarijos klinikos</h2>
+        <p>Veterinarijos klinikų peržiūra, įrašymas ir redagavimas.</p>
+        <a href="@Url.Action("Index", "VeterinarijosKlinika")" nav-link">Atidaryti</a>
+    </div>
+    <div class="feature col">
+        <h2>Sąskaitos</h2>
+        <p>Sąskaitų peržiūra, įrašymas ir redagavimas.</p>
+        <a href="@Url.Action("Index", "Saskaita")" nav-link">Atidaryti</a>
+    </div>
+</div>
+
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+        <h2>Savininkai</h2>
+        <p>Savininkų bei jų atliktų mokėjimų peržiūra, įrašymas ir redagavimas.</p>
+        <a href="@Url.Action("Index", "Savininkas")" nav-link">Atidaryti</a>
+    </div>
+	    <div class="feature col">
+        <h2>Gydytojai</h2>
+        <p>Gydytojų bei jų įterptų mikroschemų peržiūra, įrašymas ir redagavimas.</p>
+        <a href="@Url.Action("Index", "Gydytojas")" nav-link">Atidaryti</a>
+    </div>
+        </div>
+	    <div class="feature col">
+        <h2>Ataskaita</h2>
+        <p>Gydytojų įterptų mikroschemų ir pasirašytų prašymų ataskaita.</p>
+        <a href="@Url.Action("Index", "Ataskaita")" nav-link">Atidaryti</a>
+    </div>
+</div>            </div>
+        </div>
+</div>

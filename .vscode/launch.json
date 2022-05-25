@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "GyvunuRegistras",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/GyvunuRegistras/bin/Debug/net6.0/GyvunuRegistras.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/GyvunuRegistras",
+			"stopAtEntry": false,			
+			"sourceFileMap": {
+				"/Views": "${workspaceFolder}/Views"
+			}
+		}
+	]
+}

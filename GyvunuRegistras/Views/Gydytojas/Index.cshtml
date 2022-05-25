@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Org.Ktu.Isk.P175B602.GyvunuRegistras.ViewModels.GydytojasListVM>
+@{
+	ViewData["title"] = "Gydytojai";
+}
+
+<div class="main-content-header container-fluid d-flex d-row justify-content-between align-items-center p-2">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a href="@Url.Action("Create")" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Sukurti naują</a>
+	</span>
+</div>
+
+<div class="d-flex justify-content-center">
+	<table class="entitylist table table-striped table-hover">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(m => m.AsmensKodas)
+				</th>
+				<th>
+					@Html.DisplayNameFor(m => m.Vardas)
+				</th>
+				<th>
+					@Html.DisplayNameFor(m => m.Pavarde)
+				</th>
+				<th>
+					@Html.DisplayNameFor(m => m.Klinika)
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model) {
+			<tr>
+				<td>
+					@Html.DisplayFor(m => item.AsmensKodas)
+				</td>
+				<td>
+					@Html.DisplayFor(m => item.Vardas)
+				</td>
+				<td>
+					@Html.DisplayFor(m => item.Pavarde)
+				</td>
+				<td>
+					@Html.DisplayFor(m => item.Klinika)
+				</td>
+				<td>
+					<a href="@Url.Action("Edit", new { id = item.AsmensKodas })" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Redaguoti</a>
+					<a href="@Url.Action("Delete", new { id = item.AsmensKodas })" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Šalinti</a>					
+				</td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>
